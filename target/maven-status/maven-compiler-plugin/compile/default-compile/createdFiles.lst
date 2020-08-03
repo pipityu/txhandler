@@ -1,0 +1,4 @@
+TransactionHandler.class
+Model\Account.class
+Model\Currency.class
+Model\TransactionMessage.class
