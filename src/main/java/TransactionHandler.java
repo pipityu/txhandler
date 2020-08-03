@@ -21,8 +21,8 @@ public class TransactionHandler {
         HashMap<String, Account> accounts = new HashMap<>();
 
         //Two account hardcoded
-        accounts.put("11111111-22222222", new Account("11111111-22222222", Currency.HUF, 150000));//-22k +25k -25.9k -69k
-        accounts.put("22222222-33333333", new Account("22222222-33333333", Currency.USD, 1230));//+5k -200 -240 +450 -42
+        accounts.put("11111111-22222222", new Account("11111111-22222222", Currency.HUF, 150000));
+        accounts.put("22222222-33333333", new Account("22222222-33333333", Currency.USD, 1230));
 
         //Read transaction messages from stdin
         //handle some Exception and incorrect usecases (but not all of them)
